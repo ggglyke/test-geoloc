@@ -1,0 +1,44 @@
+.text-muted{color:#888;}
+.text-small{font-size: 75%;}
+
+#app {
+  font-size: 1.2em;
+  font-family: Roboto, sans-serif;
+  color: #232323;
+  header{
+    color: #fff;
+    text-align: center;
+    background-color: #e65100;
+    padding: 1.5rem 1rem;
+    font-weight: bold;
+    text-align: center;
+  }
+  .welcomeMessage{
+    background-color: #EEE;
+    font-size: 16px;
+    padding: .5rem 1rem;
+  }
+}
+
+.users-list-item{
+  display: flex;
+  padding: 1rem;
+  border-bottom: 2px solid #f3f3f3;
+  align-items: center;
+  img{
+    border-radius: 50%;
+    max-width: 75px;
+    margin-right: 1rem;
+    display: block;
+  }
+  .infos{
+    text-align: left;
+    .name{
+      font-size: 24px;
+    }
+    .distance{
+      margin-top: .5rem;
+    }
+  }
+  
+}
